@@ -1,0 +1,180 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* border: 2px solid red; */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  
+  
+}
+
+header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  
+}
+
+.headerlogo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+  margin-right: auto;
+  align-self: center;
+}
+
+ul {
+  list-style: none;
+  display: inline-flex;
+  padding: 0px;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+
+}
+
+.section1 {
+  padding: 40px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.section1content > p {
+  font-size: 18px;
+  color:#e5e7eb;
+  flex: 1;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.bottom-button {
+  border-color: white;
+  padding: 8px 15px;
+}
+
+.section1 > img {
+  width: 600px;
+  height: auto;
+}
+
+.section2 {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div > img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.activistimages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.activistimgcontainer {
+  width: 150px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 800px;
+  color: #1f2937;
+}
+
+.section3 {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  align-self: center;
+  margin-bottom: 0px;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.attribution {
+  font-weight: bold;
+  font-size: 24px;
+  align-self: flex-end;
+  margin-top: 5px;
+}
+
+.section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section4 > div {
+  background-color: #3882f6;
+  border: 3px solid #e5e7eb;
+  color: #e5e7eb;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+.section4content {
+ display: flex; 
+ flex-direction: column;
+}
+
+.section4content > h4 {
+    margin: 0px;
+}
+
+.section4content > p {
+  margin: 0px;
+  margin-right: 15px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
